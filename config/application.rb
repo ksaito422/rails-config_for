@@ -23,5 +23,11 @@ module RailsConfigFor
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    config.x.payment_processing.schedule = :daily
+    config.x.payment_processing.retries = 3
+    config.super_debugger = true
+    config.payment = config_for(:payment)
+    config.example = config_for(:example)
   end
 end

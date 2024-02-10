@@ -1,0 +1,9 @@
+shared:
+  foo:
+    bar:
+      baz: 1
+
+development:
+  foo:
+    bar:
+      qux: 2
