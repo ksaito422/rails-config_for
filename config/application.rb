@@ -29,5 +29,6 @@ module RailsConfigFor
     config.super_debugger = true
     config.payment = config_for(:payment)
     config.example = config_for(:example)
+    config.x.hoge = config_for(Rails.root.join('config/x/hoge.yml'))
   end
 end
