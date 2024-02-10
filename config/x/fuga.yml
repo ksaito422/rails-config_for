@@ -1,0 +1,9 @@
+default: &default
+  configs:
+    - code: 100
+    - code: 200
+    - code: 300
+
+development:
+  <<: *default
+

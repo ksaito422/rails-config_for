@@ -30,5 +30,6 @@ module RailsConfigFor
     config.payment = config_for(:payment)
     config.example = config_for(:example)
     config.x.hoge = config_for(Rails.root.join('config/x/hoge.yml'))
+    config.x.fuga = config_for(Rails.root.join('config/x/fuga.yml'))
   end
 end
